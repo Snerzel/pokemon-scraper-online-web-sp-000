@@ -8,4 +8,8 @@ attr_accessor :id, :name, :type, :db
     @type = type
     @db = db
   end
+
+  def self.save(name, type, db)
+
+  end
 end
